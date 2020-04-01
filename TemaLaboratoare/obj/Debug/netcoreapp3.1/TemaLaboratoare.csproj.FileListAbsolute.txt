@@ -20,3 +20,14 @@ C:\Users\Delia\Desktop\C#\temepiu\TemaLaboratoare\obj\Debug\netcoreapp3.1\TemaLa
 C:\Users\Delia\Desktop\C#\temepiu\TemaLaboratoare\obj\Debug\netcoreapp3.1\TemaLaboratoare.AssemblyInfo.cs
 C:\Users\Delia\Desktop\C#\temepiu\TemaLaboratoare\obj\Debug\netcoreapp3.1\TemaLaboratoare.dll
 C:\Users\Delia\Desktop\C#\temepiu\TemaLaboratoare\obj\Debug\netcoreapp3.1\TemaLaboratoare.pdb
+C:\Users\Delia\Desktop\C#\temepiu\TemaPIU\TemaLaboratoare\bin\Debug\netcoreapp3.1\TemaLaboratoare.exe
+C:\Users\Delia\Desktop\C#\temepiu\TemaPIU\TemaLaboratoare\bin\Debug\netcoreapp3.1\TemaLaboratoare.deps.json
+C:\Users\Delia\Desktop\C#\temepiu\TemaPIU\TemaLaboratoare\bin\Debug\netcoreapp3.1\TemaLaboratoare.runtimeconfig.json
+C:\Users\Delia\Desktop\C#\temepiu\TemaPIU\TemaLaboratoare\bin\Debug\netcoreapp3.1\TemaLaboratoare.runtimeconfig.dev.json
+C:\Users\Delia\Desktop\C#\temepiu\TemaPIU\TemaLaboratoare\bin\Debug\netcoreapp3.1\TemaLaboratoare.dll
+C:\Users\Delia\Desktop\C#\temepiu\TemaPIU\TemaLaboratoare\bin\Debug\netcoreapp3.1\TemaLaboratoare.pdb
+C:\Users\Delia\Desktop\C#\temepiu\TemaPIU\TemaLaboratoare\obj\Debug\netcoreapp3.1\TemaLaboratoare.csprojAssemblyReference.cache
+C:\Users\Delia\Desktop\C#\temepiu\TemaPIU\TemaLaboratoare\obj\Debug\netcoreapp3.1\TemaLaboratoare.AssemblyInfoInputs.cache
+C:\Users\Delia\Desktop\C#\temepiu\TemaPIU\TemaLaboratoare\obj\Debug\netcoreapp3.1\TemaLaboratoare.AssemblyInfo.cs
+C:\Users\Delia\Desktop\C#\temepiu\TemaPIU\TemaLaboratoare\obj\Debug\netcoreapp3.1\TemaLaboratoare.dll
+C:\Users\Delia\Desktop\C#\temepiu\TemaPIU\TemaLaboratoare\obj\Debug\netcoreapp3.1\TemaLaboratoare.pdb

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace TemaLaboratoare
 {
@@ -91,5 +92,29 @@ namespace TemaLaboratoare
             return medicamenteNegasite;
         }
 
+        public void ScriereInFisier(string numeFisier)
+        {
+            try
+            {
+                //instructiunea 'using' va apela la final swFisierText.Close();
+                //al doilea parametru setat la 'true' al constructorului StreamWriterindica modul 'append' de deschidere al fisierului
+                using (StreamWriter swFisierText = new StreamWriter(numeFisier))
+                {
+                    foreach (var item in Medicamente)
+                    {
+                        swFisierText.WriteLine(item.Denumire);
+                    }
+                }
+            }
+            catch (IOException eIO)
+            {
+                throw new Exception("Eroare la deschiderea fisierului. Mesaj: " +eIO.Message);
+            }
+            catch (Exception eGen)
+            {
+                throw new Exception("Eroare generica. Mesaj: " + eGen.Message);
+            }
+        }
+       
     }
 }

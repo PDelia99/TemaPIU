@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaLaboratoare\\TemaLaboratoare.csproj",
+      "projectUniqueName": "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaPIU\\TemaLaboratoare\\TemaLaboratoare.csproj",
       "projectName": "TemaLaboratoare",
-      "projectPath": "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaLaboratoare\\TemaLaboratoare.csproj",
+      "projectPath": "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaPIU\\TemaLaboratoare\\TemaLaboratoare.csproj",
       "packagesPath": "C:\\Users\\Delia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaLaboratoare\\obj\\",
+      "outputPath": "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaPIU\\TemaLaboratoare\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

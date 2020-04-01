@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace TemaLaboratoare
 {
@@ -61,10 +62,10 @@ namespace TemaLaboratoare
             Console.WriteLine(Catena.ComapraFarmcie(SensiBllue));
 
             //citirea de la tastatura
-            Medicament M = CTastatura();
-            Console.WriteLine("-----"+M.ID+" "+M.Denumire+" "+M.Pret);
+            //Medicament M = CTastatura();
+            //Console.WriteLine("-----" + M.ID + " " + M.Denumire + " " + M.Pret);
 
-           //cauta medicament in farmacie
+            //cauta medicament in farmacie
             Console.WriteLine();
             if (Catena.Medicamente.Contains(Nurofen))
             {
@@ -75,6 +76,18 @@ namespace TemaLaboratoare
                 Console.WriteLine(Catena.Nume + " NU are in farmacie medicamentul:" + Nurofen.Denumire);
 
             }
+
+
+
+
+
+            //scriere in fisier 
+
+            //Paracetamol.ScriereInFisier("dateout.txt", Paracetamol);
+            //SensiBllue.ScriereInFisier("dateout.txt");
+
+            //citire din fisier
+            CitireMedicamenteDinFisier("datein.txt");
 
             Console.ReadLine();
 
@@ -95,5 +108,47 @@ namespace TemaLaboratoare
             return M;
 
         }
+
+        public static void CitireMedicamenteDinFisier(string numeFisier)
+        {
+            //List<Medicament> medicamenteCititeDinFisier = new List<Medicament>();
+            try
+            {
+                // instructiunea 'using' va apela sr.Close()
+                using (StreamReader sr = new StreamReader(numeFisier))
+                {
+                    string line;
+                    int numarLinie = 0;
+                    //citeste cate o linie si creaza un obiect de tip Student pe baza datelor din linia citita
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        string[] item = line.Split(' ');
+
+                        string denumire = item[0];
+                        float pret = float.Parse(item[1]);
+
+                        Console.WriteLine("Am citit medicamentul {0} cu pretul {1}", denumire, pret);
+
+                        //Medicament med = new Medicament(denumire, pret);
+
+                        //medicamenteCititeDinFisier.Add(med);
+
+
+                    }
+                    //nrStudenti = numarLinie;
+                }
+            }
+            catch (IOException eIO)
+            {
+                throw new Exception("Eroare la deschiderea fisierului. Mesaj: " +
+                eIO.Message);
+            }
+            catch (Exception eGen)
+            {
+                throw new Exception("Eroare generica. Mesaj: " + eGen.Message);
+            }
+            //return medicamenteCititeDinFisier;
+        }
+
     }
 }

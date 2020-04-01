@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaLaboratoare\\TemaLaboratoare.csproj": {}
+    "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaPIU\\TemaLaboratoare\\TemaLaboratoare.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaLaboratoare\\TemaLaboratoare.csproj": {
+    "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaPIU\\TemaLaboratoare\\TemaLaboratoare.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaLaboratoare\\TemaLaboratoare.csproj",
+        "projectUniqueName": "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaPIU\\TemaLaboratoare\\TemaLaboratoare.csproj",
         "projectName": "TemaLaboratoare",
-        "projectPath": "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaLaboratoare\\TemaLaboratoare.csproj",
+        "projectPath": "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaPIU\\TemaLaboratoare\\TemaLaboratoare.csproj",
         "packagesPath": "C:\\Users\\Delia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaLaboratoare\\obj\\",
+        "outputPath": "C:\\Users\\Delia\\Desktop\\C#\\temepiu\\TemaPIU\\TemaLaboratoare\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
