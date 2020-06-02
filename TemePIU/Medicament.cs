@@ -1,4 +1,5 @@
-﻿
+﻿//Student: Delia Polocoser
+//Grupa: 3123b
 using System;
 using System.Collections.Generic;
 using System.IO;

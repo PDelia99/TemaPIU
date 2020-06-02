@@ -1,4 +1,6 @@
-﻿namespace TemaLaboratoare
+﻿//Student: Delia Polocoser
+//Grupa: 3123b
+namespace TemaLaboratoare
 {
     public enum denumire
     {

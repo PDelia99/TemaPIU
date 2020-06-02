@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node1");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node0", new System.Windows.Forms.TreeNode[] {
+            treeNode1});
             this.btnModifica = new System.Windows.Forms.Button();
             this.btnAfisare = new System.Windows.Forms.Button();
             this.btnCauta = new System.Windows.Forms.Button();
@@ -47,6 +50,7 @@
             this.checkbCatena = new System.Windows.Forms.CheckBox();
             this.checkbSensiblue = new System.Windows.Forms.CheckBox();
             this.checkbPharmaplus = new System.Windows.Forms.CheckBox();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             this.SuspendLayout();
             // 
             // btnModifica
@@ -243,11 +247,25 @@
             this.checkbPharmaplus.UseVisualStyleBackColor = true;
             this.checkbPharmaplus.CheckedChanged += new System.EventHandler(this.checkFarmacie_CheckedChanged);
             // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(3, 176);
+            this.treeView1.Name = "treeView1";
+            treeNode1.Name = "Node1";
+            treeNode1.Text = "Node1";
+            treeNode2.Name = "Node0";
+            treeNode2.Text = "Node0";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode2});
+            this.treeView1.Size = new System.Drawing.Size(121, 97);
+            this.treeView1.TabIndex = 45;
+            // 
             // Lab8Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(736, 292);
+            this.Controls.Add(this.treeView1);
             this.Controls.Add(this.checkbPharmaplus);
             this.Controls.Add(this.checkbSensiblue);
             this.Controls.Add(this.checkbCatena);
@@ -294,6 +312,7 @@
         private System.Windows.Forms.CheckBox checkbCatena;
         private System.Windows.Forms.CheckBox checkbSensiblue;
         private System.Windows.Forms.CheckBox checkbPharmaplus;
+        private System.Windows.Forms.TreeView treeView1;
     }
 }
 

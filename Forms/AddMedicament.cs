@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Student: Delia Polocoser
+//Grupa: 3123b
+using System;
 using NivelStocareDate;
 using System.Windows.Forms;
 using TemaLaboratoare;

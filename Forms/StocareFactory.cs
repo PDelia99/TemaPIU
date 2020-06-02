@@ -1,4 +1,6 @@
-﻿using NivelAccesDate;
+﻿//Student: Delia Polocoser
+//Grupa: 3123b
+using NivelAccesDate;
 using System.Configuration;
 
 namespace InterfataUtilizator
